@@ -1,4 +1,4 @@
-import { createState } from './framework/state.js';
+import { createState } from './state.js';
 
 // Initial state
 const initialState = {

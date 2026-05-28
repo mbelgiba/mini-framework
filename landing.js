@@ -1,4 +1,4 @@
-import { h } from '../../framework/vdom.js';
+import { h } from './vdom.js';
 
 export function Landing(state) {
     return h('div', { class: 'landing-page' },

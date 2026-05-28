@@ -1,4 +1,4 @@
-import { h } from '../../framework/vdom.js';
+import { h } from './vdom.js';
 
 export function Docs(state) {
     return h('div', { class: 'docs-container', style: 'max-width: 800px; margin: 4rem auto; padding: 2rem; background: var(--surface); border-radius: 1rem;' },

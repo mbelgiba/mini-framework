@@ -1,9 +1,9 @@
-import { patch } from './src/framework/vdom.js';
-import { Router } from './src/framework/router.js';
-import { Landing } from './src/apps/landing/landing.js';
-import { TodoApp } from './src/apps/todo-mvc/todo.js';
-import { Docs } from './src/apps/docs/docs.js';
-import { initStore, state } from './src/store.js';
+import { patch } from './vdom.js';
+import { Router } from './router.js';
+import { Landing } from './landing.js';
+import { TodoApp } from './todo.js';
+import { Docs } from './docs.js';
+import { initStore, state } from './store.js';
 
 const appRoot = document.getElementById('app');
 let oldVNode = null;

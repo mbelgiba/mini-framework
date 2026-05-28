@@ -1,5 +1,5 @@
-import { h } from '../../framework/vdom.js';
-import { state as globalState } from '../../store.js';
+import { h } from './vdom.js';
+import { state as globalState } from './store.js';
 
 export function TodoApp(state) {
     const filteredTodos = state.todos.filter(todo => {
